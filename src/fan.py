@@ -19,8 +19,9 @@ class Fan:
         return cpu_temp
 
     def mode(self, mode: Literal["ON", "OFF", "AUTO"]):
-        if mode.upper() in ("ON", "OFF", "AUTO"):
-            self._mode = mode.upper()
+        mode_u = mode.upper()
+        if mode_u in ("ON", "OFF", "AUTO"):
+            self._mode = mode_u
         else:
             print(f"Invalid mode: {mode}. Expected 'ON', 'OFF', or 'AUTO'.")
 
