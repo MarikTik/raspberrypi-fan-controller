@@ -1,9 +1,5 @@
 {
-     "process" : {
-          "is_running" : false,
-          "pid" : -1 
-     },
-     "defaults" : {
+     "settings" : {
           "pin" : 23,
           "mode" : "AUTO",
           "critical_temperature" : 60,
