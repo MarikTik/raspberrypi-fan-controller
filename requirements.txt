@@ -1,1 +1,2 @@
 gpiozero==2.0
+pigpio==1.78
