@@ -10,11 +10,13 @@
                "critical_temperature" : 55,
                "minimal_temperature" : 45
           },
-          
+          "current" : {
+               "pin" : null,
+               "mode" : null,
+               "critical_temperature" : null,
+               "minimal_temperature" : null
+          }
 
-          "pin" : null,
-          "mode" : null,
-          "critical_temperature" : null,
-          "minimal_temperature" : null
+        
      }
 }
