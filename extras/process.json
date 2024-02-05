@@ -1,6 +1,5 @@
 {  
-     "process" : {
-          "is_running" : false,
-          "pid" : -1 
-     }
+    
+     "pid" : 0
+      
 }
